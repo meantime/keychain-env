@@ -1,0 +1,28 @@
+{
+  "name": "keychain-env",
+  "version": "0.1.0",
+  "description": "Set node process environment variables based on a secure note stored in the OS X keychain.",
+  "os": ["darwin"],
+  "main": "lib/keychain-env.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meantime/keychain-env.git"
+  },
+  "author": {
+    "name": "Chris DeSalvo",
+    "email": "chris@desalvo.org",
+    "url": "https://www.desalvo.org"
+  },
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/meantime/keychain-env/issues"
+  },
+  "homepage": "https://github.com/meantime/keychain-env#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "plist": "^2.1.0"
+  }
+}
