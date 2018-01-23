@@ -1,6 +1,9 @@
 # keychain-env
 Set node process environment variables based on a secure note stored in the OS X keychain.
 
+The contents of the note, or your template file, must be in the format expected
+by the [`dotenv`](https://github.com/motdotla/dotenv) package.
+
 ## Example
 ```javascript
 const { setEnvFromNote } = require('keychain-env');
