@@ -13,7 +13,7 @@ const options = {
   //  Ounce of prevention, pound of cure and all that.
   timeout: 3000,
 
-  //  If this is our first time runnig and there is no note in
+  //  If this is our first time running and there is no note in
   //  the keychain yet then read a file from disk full of placeholder
   //  values and write that to the keychain so we know what values
   //  need to be filled in.
