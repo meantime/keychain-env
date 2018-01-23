@@ -17,6 +17,7 @@
     "url": "https://www.desalvo.org"
   },
   "license": "Unlicense",
+  "keywords": ["keychain", "environment", "mac", "config"],
   "bugs": {
     "url": "https://github.com/meantime/keychain-env/issues"
   },
